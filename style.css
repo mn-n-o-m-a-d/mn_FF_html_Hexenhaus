@@ -3,5 +3,51 @@ h1 {
 }
 
 body {
-  background-image: url("Hexenhaus.jpg");
+  background: url('Hexenhaus.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  color: white;
+}
+
+div {
+  position: absolute;
+  top: 750px;
+  left: 700px;
+  font-size: 400%;
+}
+
+.katze {
+  left: 850px
+}
+
+.herz {
+  display: none;
+  left: 850px;
+  font-size: 500%;
+}
+
+.besen {
+  transform: rotate(-20deg);
+  font-size: 600%;
+}
+
+.hexe {
+  font-size: 1800%;
+  left: 100px;
+  top: 400px;
+}
+
+.zauberstab {
+  top: 500px;
+  left: 900px;
+  font-size: 600%;
+}
+
+.zaehler {
+  position: absolute;
+  left: 100px;
+  top: 880px;
+  font-size: 100%;
 }
